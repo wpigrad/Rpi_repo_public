@@ -110,3 +110,27 @@ $ git cherry-pick [commit-hash?]
 
 $ git reset --hard [commit-hash]
 $ git push --force origin master
+
+##############################################################################
+# git config
+##############################################################################
+
+$ sudo git -c core.editor=ls\ -al config --system --edit
+
+system: /etc/gitconfig
+global: /home/pi/.gitconfig
+local: .git/config
+
+$ git config --list
+$ git config --list --local
+$ git config --list --global
+$ git config --list --system
+$ git config --list --show-origin
+$ git config --local --edit
+$ git config --local alias.last 'log -1 HEAD'
+
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################
