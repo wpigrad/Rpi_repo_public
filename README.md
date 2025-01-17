@@ -36,12 +36,15 @@ $ git config --global user.name "user_name"
 $ git congig --global credential.helper store
 
 # commit
-$ git commit -m "Added content to READ.md and added python.py files"
+$ git commit -m "Initial Commit"
 $ git status
 $ git log
 
 # push to remote repo
-$ git push -u origin master
+$ git branch -M master (or main)
+$ git remote add origin https://github.com/user_name/Repo_name.git
+$ git push --set-upstream origin master
+$ git push -u origin master (or main)
 
 ##############################################################################
 # normal git commit and push
@@ -121,12 +124,15 @@ system: /etc/gitconfig
 global: /home/pi/.gitconfig
 local: .git/config
 
+$ git config -l
 $ git config --list
 $ git config --list --local
 $ git config --list --global
 $ git config --list --system
 $ git config --list --show-origin
 $ git config --local --edit
+
+$ git remote add origin https://github.com/user_name/Repo_name
 $ git config --local alias.last 'log -1 HEAD'
 
 ##############################################################################
