@@ -6,7 +6,7 @@ Alternative: Gitlab, Bitbucket
 
 working directory / staging area / local repo / remote repo / stash
 
-
+$ git --help
 $ ls -la .git
 
 ##############################################################################
