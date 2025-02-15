@@ -25,3 +25,7 @@ for number,name in enumerate(names):
 	print(number,name)
 
 print('\n*****\n')
+
+#string1 = 'string of characters'
+#for letter in string1:
+#	print(letter)
