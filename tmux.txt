@@ -1,0 +1,24 @@
+# tmux = termnial multiplexer
+# C-B = prefix key
+
+# three layers
+# 1) session
+$ tmux ls <list tmux termials>
+$ tmux new -s <session name>
+$ tmux a -t <session index/name>
+$ tmux kill-session -t <session index/name>
+C-B D <detached>
+C-B A <attach last session>
+# 2) window
+C-B C <add new window>
+C-B N <move to next window>
+C-B , <rename window>
+C-B W X Y <kill pane>
+# 3) panes
+C-B Q <pane index number>
+C-B arrowkeys <move to pane>
+C-B " <horizontal split screen>
+C-B % <vertial split screen>
+C-B : resize-pane -L <number>
+C-B M <highlight window>
+C-B . ? <move window>

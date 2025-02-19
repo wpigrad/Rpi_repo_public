@@ -1,0 +1,48 @@
+# VIM Motions
+# $ vim <file>
+# $ nvim <file>
+
+# 4 Modes
+##################################
+1) Normal - <Esc> motion
+h 	<left>
+j 	<down>
+k 	<up>
+l 	<right>
+w 	<forward by word> b/B	<backwards by word>
+e 	<
+
+_ 	<beginning of line>
+$		<end of line> 
+0		<character>
+f/F	<forward to character>
+t/T	<up to>
+;		<step forward>
+,		<step backwards>
+C-U <up 1/2 page>
+C-F <forward full page>
+C-B <backwards full page>
+C-G <end of page>
+8k	<move 8 relative line numbers> 
+##################################
+2) Insert
+i/I <insert left>
+a/A <insert right>
+##################################
+3) Visual Line
+v/V	<
+##################################
+4) Command
+: <Command Count Motion>
+w <write>
+q	<quit>
+d/dd <delete>
+y/yy <yank>
+p	<paste>
+v <
+u	<undo>
+C-R	<redo>
+24 <move to line 24>
+
+
+
