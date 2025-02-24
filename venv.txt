@@ -1,0 +1,5 @@
+$ python -m venv File_Name
+$ source /File_Name/bin/activate
+$ pip install requests
+
+$ deactivate
