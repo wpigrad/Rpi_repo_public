@@ -118,6 +118,10 @@ $ git push --force origin master
 # git config
 ##############################################################################
 
+$ git config --global user.name <User_Name>
+$ git config --global user.email <User_Email>
+$ git config --global credential.helper store
+
 $ sudo git -c core.editor=ls\ -al config --system --edit
 
 system: /etc/gitconfig
