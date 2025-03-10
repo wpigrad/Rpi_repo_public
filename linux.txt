@@ -1,6 +1,52 @@
+Linux commands
+
+############# navigation ##################################
+$ <ctrl+e>			<go to end of line>
+$ <ctrl+a>			<go to beginning of line>
+$ <ctrl+u>			<delete line>
+$ ctrl + z			<background>
+$ fg				<foreground>
+$ ssh <user_name>@ip_address	<secure shell>
+
+############# tools ######################################
+$ man <command>			<manual pages>
+$ ls -lathrG			<list contents of directory>
+$ cd
+$ cd ..
+$ mkdir
+$ rmdir
+$ touch <file_name>		<quickly create new file>
+$ nano <file_name>		<create/edit file>
+$ cat <file_name>		<concatenate file>
+$ grep 				<search text>
+$ rm <file_name>		<remove file>
+$ rm -r <directory>		<recursively remove directory & contents>
+$ chown				<change ownership>
+$ chmod				<change permissions>
+$ history			<check history>
+$ !102				<run history #>
+$ date				<date and time>
+$ cal				<calendar>
+$ cmatrix			<the matrix screen saver>
+
+############# admin #####################################
+$ systemctl <keyword> <service>	<interact with system services>
+$ journalctl 			<inspect system logs>
+$ rsync				<remote file transfer>
+$ top				<system process table>
+$ htop				<system process table>
+$ ps -aux			<inspect processes>
+$ df -h				<disk free -human readable>
+$ sudo !!			<repeat last command with sudo in front>
+
+############# package manager ############################
 $ sudo apt-get update
 $ sudo apt-get upgrade
+?$ sudo autoremove
 
 $ sudo apt-get install python-requests
 ? $ sudo python3 -m pip install <library>
 $ command -v scp
+
+
+
