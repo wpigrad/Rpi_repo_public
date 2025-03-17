@@ -1,7 +1,18 @@
 Bash <Bourne Again SHell>
-Zsh  <Z SHell>	$ sudo apt install zsh
-		$ chsh -s $(which zsh)	<change shell>
-		$ zsh --version
+Zsh  <Z SHell>	
+	$ sudo apt install zsh
+	$ chsh -s $(which zsh)	<change shell>
+	$ zsh --version
+Oh-My-Zsh	
+	$ sh -c "$(curl -fsSl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/intall.sh)"
+	$ nano .zshrc
+	plugins=(
+	git
+	taskwarrior
+	tmux
+	python
+	)
+	$ source .zshrc		<reload config file>
 
 ############# navigation ##################################
 $ <ctrl+e>			<go to end of line>
