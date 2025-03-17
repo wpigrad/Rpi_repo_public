@@ -1,4 +1,7 @@
-Linux commands
+Bash <Bourne Again SHell>
+Zsh  <Z SHell>	$ sudo apt install zsh
+		$ chsh -s $(which zsh)	<change shell>
+		$ zsh --version
 
 ############# navigation ##################################
 $ <ctrl+e>			<go to end of line>
@@ -50,3 +53,10 @@ $ command -v scp
 
 
 
+############# games #####################################
+BashCrawl
+Terminus
+CL Mystery
+
+Vim Snake
+Vim Adventures

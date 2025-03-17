@@ -1,0 +1,20 @@
+############# 
+############# 
+$ sips 			<manipulate images / scale & crop>
+$ networkQuality	<check internet connection>
+$ say 			<text to speach>
+############# convert files
+$ brew install pandoc
+$ pandoc		<convert text to pdf>	
+$ pandoc -s resume.docx -t html -o resume.html
+$ ffmpeg		<video and audio files>
+$ textutil 		<convert textbased files to another format>
+
+############# 
+############# 
+############# 
+############# 
+############# 
+############# 
+############# 
+
