@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ############# 
 ############# 
 $ sips 			<manipulate images / scale & crop>
@@ -18,3 +19,32 @@ $ textutil 		<convert textbased files to another format>
 ############# 
 ############# 
 
+=======
+
+##############################################################
+# convert text_file.txt -> post_script_file.ps -> pdf_file.pdf
+##############################################################
+
+# install enscript and ghostscript
+$ brew install enscript
+$ brew install ghostscript
+$ enscript -p post_script_file.ps text_file.txt
+$ ps2pdf post_script_file.ps pdf.pdf
+# or
+$ enscript text_file.txt -o - | ps2pdf - pdf_file.pdf
+
+# convert post_script_file.ps to pdf_file.pdf
+# install a2ps and ghostscript 
+$ brew install a2ps 
+$ brew install ghostscript
+$ a2ps text_file.txt post_script_file.ps
+$ ps2pdf post_script_file.ps pdf.pdf
+# or
+$ a2ps text_file.txt -o - | ps2pdf - pdf_file.pdf
+
+# convert text_file.txt to pdf_file.pdf
+# install pandoc and texlive
+$ brew install pandoc
+???$ brew install texlive
+$ pandoc input.txt -o output.pdf
+>>>>>>> af2e94d (add mac.txt)
