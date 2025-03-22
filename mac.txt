@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ############# 
 ############# 
 $ sips 			<manipulate images / scale & crop>
@@ -19,7 +18,6 @@ $ textutil 		<convert textbased files to another format>
 ############# 
 ############# 
 
-=======
 
 ##############################################################
 # convert text_file.txt -> post_script_file.ps -> pdf_file.pdf
