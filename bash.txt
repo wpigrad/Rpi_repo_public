@@ -44,6 +44,7 @@ $ cal				<calendar>
 $ cmatrix			<the matrix screen saver>
 $ pandoc			<convert txt to pdf>
 $ ps2pdf			<post script to pdf>
+
 ############# admin #####################################
 $ systemctl <keyword> <service>	<interact with system services>
 $ journalctl 			<inspect system logs>
@@ -73,4 +74,9 @@ CL Mystery
 Vim Snake
 Vim Adventures
 
-#############
+############# raspberry pi #############################
+$ cat /sys/firmware/devicetree/base/model		<get model>
+$ cat /etc/os-release		<get distribution>
+$ sudo apt-get update
+$ sudo apt-get upgrade
+
