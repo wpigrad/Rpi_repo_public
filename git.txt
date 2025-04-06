@@ -33,7 +33,7 @@ $ git status
 # config credentials only done once when first setting up local repo
 $ git config --global user.email"user_email@gmail.com"
 $ git config --global user.name "user_name"
-$ git congig --global credential.helper store
+$ git config --global credential.helper store
 
 # commit
 $ git commit -m "Initial Commit"
