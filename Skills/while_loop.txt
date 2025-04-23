@@ -60,18 +60,3 @@ while True:
 print("End of While Loop4")
 print("###################")
 
-#add
-#looping through a list by indext
-#my_list = [10,20,30,40,50]
-#index = 0
-# while index < len(my_list)
-#		print(f"Element at index {index}: {my_list[index]}")
-#		index = index + 1
-
-#continue statement
-#number = 0
-#while number < 10:
-#	number = number + 1
-#	if number % 2 == 0:
-#		continue
-#	print(f"Odd number: {number}")
