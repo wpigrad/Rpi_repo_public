@@ -1,7 +1,7 @@
 # Name: Your name or you and your partner's name
 # Date: 
 # Per#:
-
+# Title: word_guess.py
 # pseudocode: Create a word game where the player has
 # twelve chances to guess the word by selecting letters.
 
@@ -27,7 +27,7 @@ words = ['computer', 'hardware', 'software', 'operating system',
 
          'editor', 'nano', 'file name', 'directory', 
 
-         'variable', 'variable types', 'bolean', 'float', 'integer', 
+         'variable', 'variable types', 'boolean', 'float', 'integer', 
          'string', 'f-string', 'floating point', 'character string',
          'list', 'true', 'false', 'binary', 'append',
 
@@ -74,19 +74,27 @@ while turns > 0:
     if failed == 0:
         print("")
         print(f"You Win {name}!")
-        print("The word is: ", word)
+        print(f"The word(s) is: {word}")
         break
 
     print()
     print(f"Tried: {guesses}")
-    guess = input(f"guess a character: ")
-    guesses = guesses + guess
+
+    # validate input
+    while True:
+        guess = input(f"Guess a character: ")
+        if len(guess) > 1:
+            print("Invalid Input")
+        else:
+            guesses = guesses + guess
+            break
 
     if guess not in word:
 
         turns = turns - 1
         print("Wrong")
-        print("You have", + turns, 'more guesses')
+        print(f"You have {turns} more guesses")
 
         if turns == 0:
-            print("You Loose")
+            print("You Loose.")
+            print(f"The word(s) is {word}.")
